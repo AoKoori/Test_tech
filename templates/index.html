@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trafic Bordeaux</title>
+  </head>
+  <body>
+    <h1>Trafic Bordeaux - Prévisions</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Heure</th>
+          <th>Prévision</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for donnee in donnees %}
+        <tr>
+          <td>{{ donnee['bm_heure'] }}</td>
+          <td>{{ donnee['bm_prevision'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
