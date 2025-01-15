@@ -30,6 +30,9 @@ docker run -p 5000:5000 trafic-bordeaux-app
 📦Test_tech
  ┣ 📂templates
  ┃ ┗ 📜index.html
+ ┣ 📂static
+ ┃ ┗ 📂css
+ ┃ ┃ ┗ 📜style.css
  ┣ 📜app.py
  ┣ 📜Dockerfile
  ┣ 📜README.md
