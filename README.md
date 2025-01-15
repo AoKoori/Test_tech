@@ -26,7 +26,7 @@ docker run -p 5000:5000 trafic-bordeaux-app
 ```
 
 ## Structure du projet
-
+```
 📦Test_tech
  ┣ 📂templates
  ┃ ┗ 📜index.html
@@ -34,4 +34,4 @@ docker run -p 5000:5000 trafic-bordeaux-app
  ┣ 📜Dockerfile
  ┣ 📜README.md
  ┗ 📜requirements.txt
- 
+```
